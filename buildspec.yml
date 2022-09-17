@@ -11,6 +11,6 @@ phases:
     commands:
       - echo "Moving the files that will be upload"
       - mv target/*.war ./ROOT.war
-  artifacts:
-    files:
-      - ROOT.war
+artifacts:
+  files:
+    - ROOT.war
